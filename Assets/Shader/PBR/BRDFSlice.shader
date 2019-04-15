@@ -89,7 +89,6 @@ Shader "MyShader/PBR/BRDF Slice"{
 				return max(0,  F * G * D / 4);
             }
 
-
 			inline float3 disney(float3 baseColor, float roughness, float hl, float nl, float nv){
 				float fd90 = 0.5 + 2 * pow(hl, 2) * roughness;
 				return  baseColor / PI * (1 + (fd90 - 1) * pow(1 - nl, 5)) * (1 + (fd90 - 1) * pow(1 - nv, 5)); 
