@@ -2,6 +2,8 @@
 
 Demo of PBR shader implement in Unity & MERL BRDF rendering.
 
+See my Blog <https://www.sardinefish.com/blog/?pid=337> and <https://www.sardinefish.com/blog/?pid=338>
+
 ## Implemented BRDF models
 
 - Lambert
